@@ -1,0 +1,8 @@
+2025-04-13 01:34:45 - 192.168.1.53 - GET /admin/ - Status: 200 - Duration: 0.0224s
+2025-04-13 01:36:03 - 192.168.1.54 - GET /admin - Status: 404 - Duration: 0.0031s
+2025-04-13 01:36:03 - 192.168.1.54 - GET /admin/ - Status: 302 - Duration: 0.0012s
+2025-04-13 01:36:03 - 192.168.1.54 - GET /admin/login/ - Status: 200 - Duration: 0.0047s
+2025-04-13 01:36:04 - 192.168.1.54 - GET /favicon.ico - Status: 404 - Duration: 0.0019s
+2025-04-13 01:36:08 - 192.168.1.54 - POST /admin/login/ - Status: 302 - Duration: 0.1432s
+2025-04-13 01:36:08 - 192.168.1.54 - GET /admin/ - Status: 200 - Duration: 0.0091s
+2025-04-13 02:11:05 - 192.168.1.53 - GET /admin/ - Status: 200 - Duration: 0.0395s
