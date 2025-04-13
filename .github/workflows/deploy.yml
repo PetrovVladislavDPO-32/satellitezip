@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: self-hosted
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -17,12 +17,12 @@ jobs:
 
       - name: Stop old containers
         run: |
-          cd LAB3
+          cd satellite_zip
           docker-compose down || true
 
       - name: Run containers
         run: |
-          cd LAB3
+          cd satellite_zip
           docker-compose up -d --build
 
       - name: Verify
